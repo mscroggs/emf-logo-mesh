@@ -1,4 +1,8 @@
-def export_geo_mesh(shape, type="surface", h=1, filename=None, format="msh"):
+def export_surface_and_volume_mesh(shape,h=1):
+    export_mesh(shape, "surface", h=h, format="msh")
+    export_mesh(shape, "volume", h=h, format="xml")
+
+def export_mesh(shape, type="surface", h=1, filename=None, format="msh"):
     """Generates a mesh and saves it to file.
     Inputs
     ------
