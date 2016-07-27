@@ -1,4 +1,3 @@
-h = 0.3;
 r = 6;
 l = 13;
 w = 1;
@@ -49,5 +48,3 @@ Line Loop(3) = {11,12,-13,14,15,-16};
 
 Plane Surface(1) = {1,2};
 Plane Surface(2) = {3};
-
-Mesh.Algorithm = 6;

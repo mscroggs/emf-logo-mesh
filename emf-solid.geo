@@ -1,4 +1,3 @@
-h = 0.3;
 r = 6;
 l = 13;
 w = 1;
@@ -139,11 +138,10 @@ Plane Surface(10) = {10};
 Ruled Surface(11) = {11};
 Ruled Surface(12) = {12};
 Ruled Surface(13) = {13};
+
 Ruled Surface(14) = {14};
 Plane Surface(15) = {15};
 Ruled Surface(16) = {-16};
 Ruled Surface(17) = {17};
 Plane Surface(18) = {18};
 Ruled Surface(19) = {-19};
-
-Mesh.Algorithm = 6;

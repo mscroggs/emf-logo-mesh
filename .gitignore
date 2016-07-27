@@ -1,0 +1,4 @@
+output/*.geo
+output/*.xml
+output/*.msh
+*.pyc
