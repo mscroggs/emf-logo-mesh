@@ -41,8 +41,8 @@ def export_geo_mesh(shape, type="surface", h=1, filename=None, format="msh"):
                 os.system("gmsh -3 output/"+filename+".geo -o output/"+filename+".msh")
             else:
                 raise ValueError("Unknown type.")
-        elif format == "xml":
-            os.system("dolfin-convert output/"+filename+".msh output/"+filename+".xml")
+            if format == "xml":
+                os.system("dolfin-convert output/"+filename+".msh output/"+filename+".xml")
     else:
         raise ValueError("Unknown format.")
 
